@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Weather Journal</title>
+    <link href="https://fonts.googleapis.com/css?family=Bungee|Bungee+Shade|Covered+By+Your+Grace" rel="stylesheet">
+    <!-- CSS at style.css -->
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <section id = "app">
+
+      <!-- Header -->
+      <header>
+        <h1>Weather Journal App</h1>
+      </header>
+
+      <!-- Enter zip code  -->
+      <div>
+        <label for="zip"> Enter Zipcode </label>
+          <input type="text" id="zip" placeholder="Search Zip Code">
+      </div>
+
+      <div>
+        <label for="planing">What are your plans for today?</label>
+          <textarea class= "myInput" id="planning" placeholder="Enter your plans here" rows="9" cols="50" maxlength="200"></textarea>
+      </div>
+
+      <button id="searchBtn" type = "submit"> Search </button>
+
+      <br>
+
+      <div id="userPlans" class ="entry hide">
+        <div class = "title">Most Recent Entry</div>
+        <div id = "entryHolder">
+          <div id = "date"></div> 
+          <div id = "temp"></div>
+          <div id = "content"></div>
+        </div>
+      </div>
+
+    </section>
+    
+
+
+    <!-- JavaScript files -->
+    <script src="app.js" type="text/javascript"></script>
+  
+  </body>
+</html>
