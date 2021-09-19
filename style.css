@@ -1,0 +1,89 @@
+html {
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    min-height: 100%;
+}
+
+body{
+    padding: 5px;
+    font-family: 'Bungee', Helvetica, Arial, sans-serif;;
+    display: table;
+    margin: 0 auto;
+    text-transform: uppercase;  
+    min-width: 100%;
+}
+
+
+#app {
+    max-width: 960px;
+    min-height: auto;
+    margin: 50px auto;
+    text-align: center;
+}
+
+header {
+    font-family: 'Bungee Shade', cursive;
+    font-size: 24px;
+    line-height: 48px;
+}
+
+
+.holder{
+    text-align: center;
+}
+
+label {
+    color: rgb(39, 39, 39);
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+
+#zip {
+    padding: 15px 15px;
+    margin: 15px 15px;
+    background:#d4d4d4;
+}
+
+textarea {
+    display: block;
+    padding: 15px 15px;
+    margin: auto;
+    background:#d4d4d4;
+    font-size: 20px;
+}
+
+
+#searchBtn {
+    background-color: #222;
+    width: 300px;
+    font-family: 'Bungee', cursive;
+    font-size: 18px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+.entry{
+    margin-top: 15px;
+    padding: 10px;
+    background: rgba(59, 74, 107, .4);    
+}
+
+#entryHolder{
+    display: flexbox;
+}
+
+#content{
+    display: inline-flexbox;
+}
+
+.hide {
+    display: none;
+}
+
+.alert {
+    border: 2px solid red;
+}
